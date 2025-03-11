@@ -1,0 +1,13 @@
+.idea
+__pycache__
+.env
+venv
+*.jpg
+test.py
+test_hf.py
+*.sql
+firebase_config_json
+test/**
+templates/**
+**.json
+firebase_conf/**.json

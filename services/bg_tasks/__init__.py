@@ -1,0 +1,1 @@
+from services.bg_tasks.celery_impl import CeleryBGTasks, app

@@ -1,0 +1,1 @@
+from foreing_services.hugging_face_service.schemas.base import GeneralGarmentType

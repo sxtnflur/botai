@@ -1,0 +1,10 @@
+FROM python:3.12
+
+WORKDIR /app
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+# Для поллинга заменить на CMD ['python', 'run_bot.py']
+CMD ['uvicorn', 'run_bot:app', '--port=8000']
